@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
+
+:root{
+    --cor-primaria: #1C0A00;
+    --cor-secundaria: #603601;
+    --cor-terciaria: #CC9544;
+    --cor-hover: #F9F54B;
+
+    --fonte-primaria: 'Belleza', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+    --fonte-terciaria: Mont
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+.apresentacao {
+    position: relative; /* Adiciona posição relativa ao container pai */
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content, .content_p {
+    width: 50%;
+    padding-top: 2%;
+    padding-left: 1%;
+    text-align: center;
+    color: var(--cor-terciaria);
+    font-family: var(--fonte-primaria);
+    font-size: 1.8rem;
+  }
+.content_h2{
+  font-size: 1.7rem;
+}
+.content_p{
+    font-size: 1.5rem;
+    font-family: var(--fonte-primaria);
+    line-height: 17px;
+  }
+
+.icones {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.rodape{
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  position: absolute;
+  bottom: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  color: var(--cor-hover);
+}
+
+@media screen and (max-width: 1345px){
+  .content, .content_p {
+    width: 100%;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .icones {
+    width: 100%;
+  }
+
+  .rodape{
+    position: absolute;
+    bottom: 0;
+  }
+}
