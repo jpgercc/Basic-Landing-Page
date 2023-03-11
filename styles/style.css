@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
 
 
+
+
+
 :root{
     --cor-primaria: #1C0A00;
     --cor-secundaria: #603601;
@@ -9,7 +12,6 @@
 
     --fonte-primaria: 'Belleza', sans-serif;
     --fonte-secundaria: 'Roboto', sans-serif;
-    --fonte-terciaria: Mont
 }
 
 body{
@@ -26,7 +28,6 @@ body{
   .content, .content_p {
     width: 50%;
     padding-top: 2%;
-    padding-left: 1%;
     text-align: center;
     color: var(--cor-terciaria);
     font-family: var(--fonte-primaria);
@@ -39,12 +40,18 @@ body{
     font-size: 1.5rem;
     font-family: var(--fonte-primaria);
     line-height: 17px;
-  }
+}
+
+.venda{
+  font-family: var(--fonte-secundaria);
+  font-size: 1rem;
+  font-weight: lighter;
+}
 
 .icones {
-  width: 45%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  width: 50%;
 }
 
 .img {
@@ -73,8 +80,8 @@ a{
 a:hover{
   color: var(--cor-hover);
 }
-
-@media screen and (max-width: 1345px){
+/*1345px*/
+@media screen and (max-width: 900px){
   .content, .content_p {
     width: 100%;
   }
