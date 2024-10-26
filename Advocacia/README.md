@@ -1,1 +1,1 @@
-![image] (https://github.com/jpgercc/Basic-Landing-Page/issues/2#issue-1784981239)
+![Sem título](https://github.com/jpgercc/Basic-Landing-Page/assets/115590969/844d256a-e7a9-46c5-bcd3-4b779a7c67c7)
